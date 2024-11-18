@@ -1,0 +1,113 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #489887, #67a7d2);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #132021;
+  }
+  
+  h1, p {
+    margin: 0 0 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .game-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+  }
+  
+  .card {
+    background: #ffffff;
+    color: #333;
+    border-radius: 15px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+  }
+  
+.input-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    gap: 10px;
+    margin-bottom: 20px;    
+  }
+  
+  #guess {
+          
+    width: 60%;           
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  button#submit {
+    background-color: #27ae60;
+  }
+  
+  button#submit:hover {
+    background-color: #2ecc71;
+  }
+    
+  button#replay {
+    background-color: #e74c3c;
+    margin-top: 15px;
+  }
+  
+  button#replay:hover {
+    background-color: #c0392b;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .message {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .message.plus {
+    color: #2ecc71;
+  }
+  
+  .message.moins {
+    color: #e74c3c;
+  }
+  
+  .message.success {
+    color: #f1c40f;
+  }
+  
+  #attempts {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #555;
+  }
+  
